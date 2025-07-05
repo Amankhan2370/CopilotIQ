@@ -1,4 +1,4 @@
-# 🤖 AI Copilot RAG Platform
+# 🤖 CopilotIQ: AI-Powered Multi-Agent RAG System
 
 A robust AI-driven Copilot system combining **multi-agent RAG architecture**, **domain-specific intelligence**, and **real-time data visualization**, built using **React**, **FastAPI**, **LangChain**, and **Gemini API**.
 
