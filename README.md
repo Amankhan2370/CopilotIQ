@@ -61,8 +61,7 @@ Minimalistic yet functional UI with responsive design and fast navigation betwee
 ---
 
 ## 🏁 Built During
-
-**Spring 2025 CMPE 280 Hackathon**  
-San José State University — *Web UI Design and Development*
+Spring 2025 INFO 6150 Hackathon
+Northeastern University — Web Design and User Experience Development
 
 > “Production-grade implementation with cutting-edge LLM design and polished UI/UX” – Faculty Review
