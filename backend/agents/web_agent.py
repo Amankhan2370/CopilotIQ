@@ -1,5 +1,9 @@
+import os
 import requests
+from dotenv import load_dotenv
 import google.generativeai as genai
+
+load_dotenv()  # Load environment variables from .env
 
 # 🌐 Function 1: Handles data-based visual prompts
 def handle_prompt(prompt):
@@ -35,7 +39,7 @@ def handle_prompt(prompt):
 
 # 💬 Function 2: Handles general queries with Gemini
 async def web_query(prompt: str):
-    genai.configure(api_key="AIzaSyDnHim4Gpw1yIIobICu_yA4DXT3hE-bLSo")  # replace with env var in production
+    genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
     model = genai.GenerativeModel("gemini-1.5-pro")
     response = model.generate_content(prompt)
     return {"agent": "WebUI", "response": response.text}
